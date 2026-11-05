@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #10131a;
+    color: white;
+    font-family: Tahoma, sans-serif;
+}
+
+header {
+    background-color: #1c2230;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #d4af37;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+.hero {
+    height: 300px;
+    background: linear-gradient(90deg, #10131a, #29364d);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 38px;
+    color: #d4af37;
+}
+
+.hero button {
+    padding: 12px 30px;
+    background-color: #d4af37;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.hero button:hover {
+    background-color: #f0cb53;
+}
+
+main {
+    padding: 40px 50px;
+}
+
+.section-title {
+    margin-bottom: 25px;
+    border-right: 4px solid #d4af37;
+    padding-right: 12px;
+}
+
+.movies {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    background-color: #1c2230;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-8px);
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.movie-card h3 {
+    margin: 12px 0;
+    color: #d4af37;
+}
+
+.movie-card p {
+    margin-bottom: 10px;
+    color: #bbb;
+}
+
+.movie-card span {
+    color: #f0cb53;
+}
+
+footer {
+    background-color: #1c2230;
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+}
